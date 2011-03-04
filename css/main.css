@@ -1,0 +1,13 @@
+html{
+  font-size:62.5%;
+}
+section{
+  margin: 0 auto;
+  background-color: #eee;
+  width: 40em;
+}
+.rounded{
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
