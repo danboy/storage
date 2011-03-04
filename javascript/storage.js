@@ -67,15 +67,5 @@ Groupon.getGuide.prototype = {
   },
   localGet: function(){
     guide = this.db.isStale("guide");
-    updated_at = new Date(guide.updated_at);
-    updated_at.setDate(updated_at.getDate()+1)
-    current_date = new Date();
-    if (updated_at < current_date){
-      console.log('date is stale',(updated_at.getDate()+1));
-      this.ajaxGet();
-    }else{
-      console.log('date is fresh');
-      return guide;
-    }
   }
 }
