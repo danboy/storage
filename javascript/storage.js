@@ -57,4 +57,3 @@ Groupon.storage.prototype = {
     }
   }
 };
-
