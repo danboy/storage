@@ -17,4 +17,4 @@ check's if keyname is stale, currently date-1, but will update to allow
 us to pass a time value.
 
 foo.supported();
-check's if browser supports offile data.
+check's if browser supports offline data.
